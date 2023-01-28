@@ -1,0 +1,9 @@
+body { 
+  background: linear-gradient(90deg, rgba(32,5,106,1) 7%, rgba(41,26,210,1) 52%, rgba(32,5,106,1) 97%);
+  font-family: 'Public Pixel', monospace;
+  height: 90vh;
+  width: 99%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

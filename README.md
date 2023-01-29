@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was migrated from CodePen. It was implemented as part of FreeCodeCamp course [Front End Development Libraries](https://www.freecodecamp.org/certification/Reabtev_Alina/front-end-development-libraries)
 
 ## Available Scripts
 

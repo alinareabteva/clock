@@ -78,6 +78,8 @@ export const useClockState = () => {
             case TIMER_PHASES.PAUSED:
                 timerPhase = TIMER_PHASES.RUNNING;
                 break;
+            default:
+                break;
         }
 
         setTimer(type, timerPhase)

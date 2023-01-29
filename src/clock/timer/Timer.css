@@ -1,0 +1,48 @@
+.timer {
+    width: 50vw;
+    margin-top: 0.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 0;
+    border-bottom: 0.3rem solid #5e548e;
+}
+
+.label_and_time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 53%;
+    font-size: 1.8rem;
+}
+
+#timer-label {
+    margin: 10px 0;
+}
+
+@media (max-width: 700px) {
+    .timer {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .label_and_time,
+    #start_stop,
+    #reset {
+        width: 70vw;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .label_and_time,
+    #start_stop,
+    #reset {
+        width: 90vw;
+        font-size: 0.8rem;
+    }
+}
